@@ -5,13 +5,13 @@
   // import Renderer  from './Renderer.svelte'
 
   let rotateSpeed: number = 1
-  let zoomSpeed: number = 0.3
+  let zoomSpeed: number = 0.2
   let scale: number = 0.11
   let rotx: number = 0
   let roty: number = 0
   let rotz: number = 0
-  let minPolarAngle: number = 0
-  let maxPolarAngle: number = Math.PI
+  let minPolarAngle: number = 1.5
+  let maxPolarAngle: number = 1.4
 
 
   // let rendererParameters = {
